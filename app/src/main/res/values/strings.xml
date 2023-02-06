@@ -17,6 +17,9 @@
     <string name="app_name">Water Me</string>
     <string name="remind_me">Remind me to water %s in…</string>
     <string name="five_seconds">5 seconds</string>
+    <string name="one_minute">1 minute</string>
+    <string name="two_minutes">2 minutes</string>
+    <string name="three_minutes">3 minutes</string>
     <string name="one_day">1 day</string>
     <string name="one_week">1 week</string>
     <string name="one_month">1 month</string>

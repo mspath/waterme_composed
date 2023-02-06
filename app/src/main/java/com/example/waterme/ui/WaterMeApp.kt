@@ -41,11 +41,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.example.waterme.FIVE_SECONDS
-import com.example.waterme.ONE_DAY
-import com.example.waterme.R
-import com.example.waterme.SEVEN_DAYS
-import com.example.waterme.THIRTY_DAYS
+import com.example.waterme.*
 import com.example.waterme.data.DataSource
 import com.example.waterme.data.Reminder
 import com.example.waterme.model.Plant
@@ -133,9 +129,12 @@ fun ReminderDialogContent(
 ) {
     val reminders = listOf(
         Reminder(R.string.five_seconds, FIVE_SECONDS, TimeUnit.SECONDS, plantName),
-        Reminder(R.string.one_day, ONE_DAY, TimeUnit.DAYS, plantName),
-        Reminder(R.string.one_week, SEVEN_DAYS, TimeUnit.DAYS, plantName),
-        Reminder(R.string.one_month, THIRTY_DAYS, TimeUnit.DAYS, plantName)
+        Reminder(R.string.one_minute, ONE_MINUTE, TimeUnit.MINUTES, plantName),
+        Reminder(R.string.two_minutes, TWO_MINUTES, TimeUnit.MINUTES, plantName),
+        Reminder(R.string.three_minutes, THREE_MINUTES, TimeUnit.MINUTES, plantName),
+//        Reminder(R.string.one_day, ONE_DAY, TimeUnit.DAYS, plantName),
+//        Reminder(R.string.one_week, SEVEN_DAYS, TimeUnit.DAYS, plantName),
+//        Reminder(R.string.one_month, THIRTY_DAYS, TimeUnit.DAYS, plantName)
     )
 
     AlertDialog(
