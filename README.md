@@ -18,7 +18,7 @@ Environment
 - Kotlin 1.7.20
 - Android Studio Electric Eel 2022.1.1
 - Compose 1.3.2
-- Gradle Plugin 7.4.1
+- Gradle Plugin 7.4.2
 
 ---
 
@@ -26,5 +26,5 @@ Environment
 language: kotlin
 repo: waterme_composed
 status: active
-updated: 2023-02-06
+updated: 2023-04-02
 ```
