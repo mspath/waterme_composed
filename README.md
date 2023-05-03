@@ -15,10 +15,10 @@ This app is based on the [Practice Water Me app] Codelab.
 
 Environment
 
-- Kotlin 1.8.0
-- Android Studio Electric Eel 2022.1.1
-- Compose BOM 2023.01.00
-- Gradle Plugin 7.4.2
+- Kotlin 1.8.20
+- Android Studio Flamingo 2022.2.1
+- Compose BOM 2023.04.01
+- Gradle Plugin 8.0.0
 
 ---
 
